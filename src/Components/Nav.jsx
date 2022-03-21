@@ -17,7 +17,7 @@ const Nav = () => {
                     <a href="#skills">SKILLS</a>
                 </li>
                 <li>
-                    <a href="#0">PROJECTS</a>
+                    <a href="#projects">PROJECTS</a>
                 </li>
                 <li>
                     <a href="#0">CONTACT</a>

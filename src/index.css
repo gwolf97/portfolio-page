@@ -225,7 +225,7 @@ header button:hover {
 /**************** SKILLS ******************/
 
 .skills {
-  height: 100vh;
+  height: 120vh;
   display: grid;
   grid-auto-columns: 1fr;
   grid-template-columns: 1fr 1fr;
@@ -281,4 +281,12 @@ header button:hover {
 
 .react {
   color: #00d8ff;
+}
+
+/**************** PROJECTS ******************/
+
+.projects {
+  height: 100vh;
+  background-color: rgba(245, 245, 245, 0.349);
+  padding: 30px 30px;
 }
