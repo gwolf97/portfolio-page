@@ -8,13 +8,13 @@ const Nav = () => {
             <h3 className="nav-title"><span className="light-blue">FRONT-END DEVELOPER</span> IN COLOMBIA</h3>
             <ul>
                 <li>
-                    <a href="#0">HOME</a>
+                    <a href="#home">HOME</a>
                 </li>
                 <li>
-                    <a href="#0">ABOUT</a>
+                    <a href="#about">ABOUT</a>
                 </li>
                 <li>
-                    <a href="#0">SKILLS</a>
+                    <a href="#skills">SKILLS</a>
                 </li>
                 <li>
                     <a href="#0">PROJECTS</a>
