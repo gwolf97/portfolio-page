@@ -194,6 +194,7 @@ header button:hover {
   align-items: left;
   height: 100vh;
   padding: 0 100px 0 35px;
+  margin-bottom: 100px;
   background-color: rgba(245, 245, 245, 0.349);
 }
 
@@ -217,7 +218,8 @@ header button:hover {
   font-size: 18px;
   line-height: 25px;
   font-weight: 300;
-  margin: 70px 0 -30px 0;
+  margin-top: 70px;
+  padding: 0 35px 0 0;
   color: rgba(71, 71, 71, 0.829);
 }
 
@@ -252,7 +254,7 @@ header button:hover {
   font-size: 18px;
   line-height: 25px;
   font-weight: 300;
-  margin: 50px 0 10px 0;
+  margin: 30px 0 10px 0;
   padding: 0 20px 0 0;
   color: rgba(71, 71, 71, 0.829);
 }
@@ -266,7 +268,7 @@ header button:hover {
 }
 
 .tech-logo {
-  font-size: 130px;
+  font-size: 100px;
 }
 
 .html {
@@ -332,10 +334,6 @@ header button:hover {
   width: 500px;
   overflow-x: scroll;
   border: 1px solid rgba(0, 0, 0, 0.171);
-}
-
-.work::-webkit-scrollbar {
-  display: none;
 }
 
 .work-container {

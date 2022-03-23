@@ -1,7 +1,7 @@
 const work=[
     {
         title:"AIR-BNB EXPERIENCES PAGE",
-        description:"Using air-bnb pages as an example I created a page that utilizes data to form various card components to show information about each experience.",
+        description:"Using air-bnb pages as an example I created a page that utilizes data to from various card components to show information about each experience.",
         languages:"HTML, CSS, JavaScript, and React.",
         img1:"./images/air2.png",
         img2:"./images/air1.png",

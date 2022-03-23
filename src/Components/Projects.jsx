@@ -14,7 +14,7 @@ const Projects = () => {
             {projects}
             <div className="work-container">
                 <h4 className="work-title">GITHUB REPO GALLERY</h4>
-                <p className="work-description">Since the beginning of my journey I have logged most of projects on Github. If you'd like to view more of my work you can check out this gallery I made that will take you to each indvidual repo.<br/> <span>Made using HTML, CSS, and JavaScript.</span></p>
+                <p className="work-description">Since the beginning of my journey I have logged most of my projects on Github. If you'd like to view more of my work you can check out this gallery I made that will take you to each indvidual repo.<br/> <span>Made using HTML, CSS, and JavaScript.</span></p>
                 <div className="work">
                     <img src="./images/gallery1.png" alt="" />
                     <img src="./images/gallery2.png" alt="" />

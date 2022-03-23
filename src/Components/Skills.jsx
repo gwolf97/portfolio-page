@@ -10,7 +10,7 @@ const Skills = () => {
             <div className="description">
                 <h3 className="light-section-title">MY SPECIALTY</h3>
                 <h3 className="bold-section-title">MY SKILLS</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nemo inventore molestiae quas nihil blanditiis vitae nesciunt ipsa necessitatibus, nisi obcaecati praesentium non ea similique animi quos rem sit laborum.</p>
+                <p>My skills are are always growing! Right now HTML, CSS, JavaScript, and React are my favorite tools for creating websites. I am also familliar with GitHub, Node Package Manager, and CSS Grid. The other great things about me are that I understand assignments when they are given to me, I value excellent communication, I am patient, and I work well with others. If that sounds useful to you now I'm sure that after joining a team these skills will reach new heights!</p>
             </div>
             <div className="tech-container">
                 <AiFillHtml5 className="tech-logo html"/>
