@@ -12,7 +12,7 @@ const MobileNav = (props) => {
 
 
     return ( 
-        <nav style={props.menuOpen ? display : noDisplay }>
+        <nav style={props.menuOpen ? display : noDisplay} className={props.menuOpen ? "slide-in" : "slide-out"}>
             {props.menuOpen && <div className="close-x" onClick={props.toggle}><AiOutlineClose/></div>}
              <div className="profile-container">
                 <img className="profile-pic" src="./images/profile-pic-crop.png" alt="" />
