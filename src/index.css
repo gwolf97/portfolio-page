@@ -6,9 +6,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgba(245, 245, 245, 0.349);
+}
+
 .container {
   display: grid;
-  grid-template-columns: 300px 70%;
+  grid-template-columns: 30% 70%;
   grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-template-areas: ". .";
@@ -24,16 +28,19 @@
 /**************** NAVIGATION ******************/
 
 .profile-pic {
-  height: 250px;
+  display: flex;
+  height: 150px;
+  width: 150px;
   margin: 45px 0 0 16px;
+  border-radius: 50%;
 }
 
 .profile-container {
-  border-radius: 50%;
+  border-radius: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+
   width: 150px;
   height: 150px;
 }
@@ -46,6 +53,7 @@ nav {
   text-align: center;
   background-color: rgba(119, 136, 153, 0.116);
   height: 100vh;
+  overflow-y: scroll;
 }
 
 .nav-name {
@@ -135,14 +143,16 @@ li a:active {
 
 main {
   overflow-y: scroll;
+  overflow-x: hidden;
   height: 100vh;
   scroll-behavior: smooth;
+  background-color: rgba(245, 245, 245, 0.349);
 }
 
 /**************** HEADER ******************/
 
 header {
-  height: 100vh;
+  height: 750px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -187,12 +197,16 @@ header button:hover {
 
 /**************** ABOUT ******************/
 
+#about {
+  margin-bottom: 50px;
+}
+
 .about {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  height: 100vh;
+  height: 700px;
   padding: 0 100px 0 35px;
   margin-bottom: 100px;
   background-color: rgba(245, 245, 245, 0.349);
@@ -219,7 +233,6 @@ header button:hover {
   line-height: 25px;
   font-weight: 300;
   margin-top: 70px;
-  padding: 0 35px 0 0;
   color: rgba(71, 71, 71, 0.829);
 }
 
@@ -231,7 +244,7 @@ header button:hover {
 /**************** SKILLS ******************/
 
 .skills {
-  height: 120vh;
+  height: 800px;
   display: grid;
   grid-auto-columns: 1fr;
   grid-template-columns: 1fr 1fr;
@@ -243,6 +256,7 @@ header button:hover {
     ". .";
   padding: 50px 35px 100px 30px;
   background-color: rgba(245, 245, 245, 0.349);
+  margin-top: 200px;
 }
 
 .description {
@@ -331,7 +345,7 @@ header button:hover {
 
 .work {
   display: flex;
-  width: 500px;
+  width: 50vw;
   overflow-x: scroll;
   border: 1px solid rgba(0, 0, 0, 0.171);
 }
@@ -341,7 +355,7 @@ header button:hover {
 }
 
 .projects img {
-  width: 500px;
+  width: 50vw;
 }
 
 .projects button {
@@ -427,4 +441,55 @@ header button:hover {
 }
 .contact a:hover {
   color: rgb(31, 61, 71);
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: ".";
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-x: auto;
+  }
+
+  nav {
+    z-index: 1;
+    background-color: rgba(220, 225, 231, 0.9);
+  }
+
+  .about {
+    margin-top: 200px;
+  }
+
+  .skills {
+    margin-top: 200px;
+  }
+
+  .hamburger {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+  }
+
+  .close-x {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+  }
+
+  .close-x:hover {
+    cursor: pointer;
+  }
+
+  .hamburger:hover {
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 720px) {
 }

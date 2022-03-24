@@ -19,7 +19,7 @@ const Projects = () => {
                     <img src="./images/gallery1.png" alt="" />
                     <img src="./images/gallery2.png" alt="" />
                 </div>
-                <button className="gallery-btn"><a href="https://gwolf97.github.io/github-repo-gallery/" target="_blank">View gallery</a></button>
+                <a href="https://gwolf97.github.io/github-repo-gallery/" target="_blank"><button className="gallery-btn">View gallery</button></a>
             </div>
             </div>
         </section>

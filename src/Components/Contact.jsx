@@ -19,7 +19,7 @@ const Contact = () => {
                 </div>
                 <div className="contact-card">
                     <div className="box"><AiOutlineLinkedin className="contact-icon"/></div>
-                    <div className="contact-text-container"><p><a href="https://www.linkedin.com/in/gabriel-wolf-4b961b235/" target="_blank">Find me on LinkedIn by clicking here</a></p></div>
+                    <div className="contact-text-container"><p><a href="https://www.linkedin.com/in/gabriel-wolf-4b961b235/" target="_blank">Find me on LinkedIn</a></p></div>
                 </div>
             </div>
         </section>

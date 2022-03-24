@@ -8,7 +8,7 @@ const Header = () => {
                 I'm Gabriel
                 </h1>
                 <p>I'm a Front-end Web Developer</p>
-                <button>VIEW PORTFOLIO <RiSuitcaseLine className="suitcase"/></button>
+                <a href="#projects"><button>VIEW PORTFOLIO <RiSuitcaseLine className="suitcase"/></button></a>
             </div>
         </header>
      );
