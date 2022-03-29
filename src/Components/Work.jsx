@@ -7,7 +7,7 @@ const Work = (props) => {
                     <img src={props.img1} alt="" />
                     <img src={props.img2} alt="" />
                 </div>
-                <a href={props.repo} target="_blank"><button>View repo</button></a>
+                <a href={props.repo} target="_blank"><button>View page</button></a>
             </div>
      );
 }

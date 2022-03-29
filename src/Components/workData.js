@@ -1,11 +1,11 @@
 const work=[
     {
         title:"AIR-BNB EXPERIENCES PAGE",
-        description:"Using air-bnb pages as an example I created a page that utilizes data to from various card components to show information about each experience.",
+        description:"Using air-bnb pages as an example I created a page that utilizes data to form various card components to show information about each experience.",
         languages:"HTML, CSS, JavaScript, and React.",
         img1:"./images/air2.png",
         img2:"./images/air1.png",
-        repo:"https://github.com/gwolf97/airbnb-page"
+        repo:"https://sensational-phoenix-b0b825.netlify.app/"
     },
     {
         title:"QUIZICAL",
@@ -13,7 +13,7 @@ const work=[
         languages:"HTML, CSS, JavaScript, and React.",
         img1:"./images/quiz2.png",
         img2:"./images/quiz1.png",
-        repo:"https://github.com/gwolf97/quizcal"
+        repo:"https://animated-kulfi-97528b.netlify.app/"
     },
     {
         title:"TENZIES",
@@ -21,7 +21,7 @@ const work=[
         languages:"HTML, CSS, JavaScript, and React.",
         img1:"./images/tenzies1.png",
         img2:"./images/tenzies2.png",
-        repo:"https://github.com/gwolf97/tenzies"
+        repo:"https://bespoke-narwhal-761864.netlify.app/"
     },
 
 ];
