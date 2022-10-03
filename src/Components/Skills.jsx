@@ -10,6 +10,8 @@ import {AiFillGithub} from 'react-icons/ai'
 import {SiPostgresql} from 'react-icons/si'
 import {BsBootstrapFill} from 'react-icons/bs'
 import {SiMaterialui} from 'react-icons/si'
+import {SiNetlify} from 'react-icons/si'
+import {GrHeroku} from 'react-icons/gr'
 
 
 const Skills = () => {
@@ -67,6 +69,14 @@ const Skills = () => {
             <div className="tech-container">           
                 <SiMaterialui className="tech-logo material-ui"/>
                 <p>Material UI</p>
+            </div>
+            <div className="tech-container">           
+                <SiNetlify className="tech-logo netlify"/>
+                <p>Netlify</p>
+            </div>
+            <div className="tech-container">           
+                <GrHeroku className="tech-logo heroku"/>
+                <p>Heroku</p>
             </div>
         </section>
      );
