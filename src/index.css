@@ -248,7 +248,7 @@ header button:hover {
 /**************** SKILLS ******************/
 
 .skills {
-  height: 800px;
+  height: 1400px;
   display: grid;
   grid-auto-columns: 1fr;
   grid-template-columns: 1fr 1fr;
@@ -282,6 +282,7 @@ header button:hover {
   font-size: 18px;
   text-align: center;
   margin-left: -20px;
+  margin-bottom: 10px;
   line-height: 30px;
 }
 
@@ -305,6 +306,35 @@ header button:hover {
 .react {
   color: #00d8ff;
 }
+
+.node-js{
+  color: #68A063;
+}
+
+.redux{
+  color: #764abc;
+}
+
+.express, .github{
+  color: #171515;
+}
+
+.mongo-db{
+  color: #3FA037;
+}
+
+.postgresql{
+  color: #0064a5;
+}
+
+.bootstrap{
+  color: #602C50;
+}
+
+.material-ui{
+  color: #29B6F6;
+}
+
 
 /**************** PROJECTS ******************/
 

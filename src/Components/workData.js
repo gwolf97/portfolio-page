@@ -1,27 +1,31 @@
 const work=[
     {
+        title:"UNPLUGGED RETREAT",
+        description:"Home, faq, and about pages for a company retreat website. Includes google maps integration.",
+        languages:"HTML, CSS",
+        images:["./images/unplug-1.png", "./images/unplug-2.png","./images/unplug-3.png"],
+        repo:"https://harmonious-praline-86f586.netlify.app/#home"
+    },
+    {
+        title:"SUNNYSIDE MARKETING AGENCY",
+        description:"Home page that a marketing agency might use to welcome potential clients.",
+        languages:"HTML, CSS",
+        images:["./images/sunny-1.png", "./images/sunny-2.png","./images/sunny-3.png","./images/sunny-4.png"],
+        repo:"https://harmonious-praline-86f586.netlify.app/#home"
+    },
+    {
         title:"AIR-BNB EXPERIENCES PAGE",
         description:"Using air-bnb pages as an example I created a page that utilizes data to form various card components to show information about each experience.",
         languages:"HTML, CSS, JavaScript, and React.",
-        img1:"./images/air2.png",
-        img2:"./images/air1.png",
+        images:["./images/air2.png", "./images/air1.png"],
         repo:"https://sensational-phoenix-b0b825.netlify.app/"
     },
     {
         title:"QUIZICAL",
         description:"A quiz app that takes 5 random questions from the open trivia data base API. This app will test you, let you know which answers you got right, and can render a new quiz after completion.",
         languages:"HTML, CSS, JavaScript, and React.",
-        img1:"./images/quiz2.png",
-        img2:"./images/quiz1.png",
+        images:["./images/quiz2.png","./images/quiz1.png"],
         repo:"https://animated-kulfi-97528b.netlify.app/"
-    },
-    {
-        title:"TENZIES",
-        description:"Tenzies is a game where you roll 6 sided dice and select the dice with the same number until all 10 match. This app icludes a roll counter for each game, a timer, and will also save the best time to local storage.",
-        languages:"HTML, CSS, JavaScript, and React.",
-        img1:"./images/tenzies1.png",
-        img2:"./images/tenzies2.png",
-        repo:"https://bespoke-narwhal-761864.netlify.app/"
     },
 
 ];

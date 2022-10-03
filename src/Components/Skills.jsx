@@ -2,6 +2,14 @@ import {AiFillHtml5} from 'react-icons/ai'
 import {IoLogoCss3} from 'react-icons/io'
 import {SiJavascript} from 'react-icons/si'
 import {FaReact} from 'react-icons/fa'
+import {DiMongodb} from 'react-icons/di'
+import {SiRedux} from 'react-icons/si'
+import {FaNodeJs} from 'react-icons/fa'
+import {SiExpress} from 'react-icons/si'
+import {AiFillGithub} from 'react-icons/ai'
+import {SiPostgresql} from 'react-icons/si'
+import {BsBootstrapFill} from 'react-icons/bs'
+import {SiMaterialui} from 'react-icons/si'
 
 
 const Skills = () => {
@@ -28,7 +36,38 @@ const Skills = () => {
                 <FaReact className="tech-logo react"/>
                 <p>React</p>
             </div>
-
+             <div className="tech-container">
+                <FaNodeJs className="tech-logo node-js"/>
+                <p>NodeJs</p>
+            </div>
+            <div className="tech-container">           
+                <SiRedux className="tech-logo redux"/>
+                <p>Redux</p>
+            </div>
+             <div className="tech-container">
+                <SiExpress className="tech-logo express"/>
+                <p>Express</p>
+            </div>
+            <div className="tech-container">           
+                <DiMongodb className="tech-logo mongo-db"/>
+                <p>MongoDB</p>
+            </div>
+            <div className="tech-container">           
+                <AiFillGithub className="tech-logo github"/>
+                <p>GitHub</p>
+            </div>
+            <div className="tech-container">           
+                <SiPostgresql className="tech-logo postgresql"/>
+                <p>PostgreSQL</p>
+            </div>
+            <div className="tech-container">           
+                <BsBootstrapFill className="tech-logo bootstrap"/>
+                <p>Bootstrap</p>
+            </div>
+            <div className="tech-container">           
+                <SiMaterialui className="tech-logo material-ui"/>
+                <p>Material UI</p>
+            </div>
         </section>
      );
 }
