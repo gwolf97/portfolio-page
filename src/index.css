@@ -248,14 +248,19 @@ header button:hover {
 /**************** SKILLS ******************/
 
 .skills {
-  height: 1600px;
+  height: 1650px;
   display: grid;
   grid-auto-columns: 1fr;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 20px 0px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
   grid-template-areas:
     "description description"
+    ". ."
+    ". ."
+    ". ."
+    ". ."
+    ". ."
     ". ."
     ". .";
   padding: 50px 35px 100px 30px;
@@ -272,7 +277,7 @@ header button:hover {
   font-size: 18px;
   line-height: 25px;
   font-weight: 300;
-  margin: 30px 0 10px 0;
+  margin: 30px 0 30px 0;
   padding: 0 20px 0 0;
   color: rgba(71, 71, 71, 0.829);
 }
@@ -341,6 +346,14 @@ header button:hover {
 
 .heroku{
   color: #6762A6;
+}
+
+.postman{
+  color: #ef5b25
+}
+
+.vs-code{
+  color: #0078d7;
 }
 
 

@@ -1,10 +1,31 @@
 const work=[
     {
-        title:"MERN PROSHOP",
+        title:"MUSIC APP",
+        description:"With the help of a music API you may view top songs by genere, artist, world charts, and search for almost any song. Play previews of the selected song with the music player. View the artist screen, song screen, and discover related tracks",
+        languages:"React, Redux, Material UI",
+        images:["./images/music-1.png", "./images/music-2.png","./images/music-3.png","./images/music-4.png"],
+        repo:"https://clever-scone-a0a58e.netlify.app/"
+    },
+    {
+        title:"SOCIAL APP",
+        description:"A simple social app that allows users to view, create, update, and delete posts. Comment on posts, search for other users, and view profiles.",
+        languages:"MongoDB, Express.js, React, Node.js, Redux, Bootstrap, Material UI",
+        images:["./images/social-1.png", "./images/social-2.png","./images/social-3.png","./images/social-4.png"],
+        repo:"https://wolf-mern-social-app.herokuapp.com/"
+    },
+    {
+        title:"PROSHOP",
         description:"An e-commerce sight with user authentication and admin functionality. Home screen with pagination, Product screen, Checkout screen. Check out with paypal integration. Users can manage orders, update profile, and review products. Admin can manage products, users, and orders including delivery status. (Sign in as admin: admin@example.com customer: john@example.com password: 123456)",
-        languages:"MongoDB, Express.js, React, Node.js, Bootstrap",
+        languages:"MongoDB, Express.js, React, Node.js, Redux, Bootstrap",
         images:["./images/pro-1.png", "./images/pro-2.png","./images/pro-3.png","./images/pro-4.png"],
         repo:"https://proshopfirstdeploy.herokuapp.com/"
+    },
+    {
+        title:"X-CHANGE",
+        description:"Currency exchange application that uses a currency API to display the exchange rate data.",
+        languages:"React, Material UI",
+        images:["./images/change-1.png", "./images/change-2.png","./images/change-3.png"],
+        repo:"https://grand-raindrop-98e043.netlify.app/"
     },
     {
         title:"MERN LANDING PAGE",
@@ -15,7 +36,7 @@ const work=[
     },
     {
         title:"SCANDIWEB STORE",
-        description:"An e-commerce store that uses graphql queries to create a product gallery. Includes home page, product categories, selectable attributes, photo gallery, cart page, mini cart, and currency selector. (Note: the deployment and server of this project were out of my control. I fixed certain functionality and UI issues but do not have access to the server or deployment account anymore.)",
+        description:"An e-commerce store that uses graphql queries to create a product gallery. Includes home page, product categories, selectable attributes, photo gallery, cart page, mini cart, and currency selector. (Note: I fixed certain functionality and UI issues but do not have access to the deployment account anymore to make the updates.)",
         languages:"HTML, CSS, React, GRAPHQL, Apollo",
         images:["./images/scandi-1.png", "./images/scandi-2.png","./images/scandi-3.png","./images/scandi-4.png"],
         repo:"https://shop-application.netlify.app/#"
