@@ -1,5 +1,12 @@
 const work=[
     {
+        title:"DASHBOARD APP",
+        description:"A desktop dashboard app that gives a quick glance at all data as well as individual pages for more detail. This project demonstrates data in many forms. Pie, Bar, Line, and Geography charts. Contact, Team, and Invoice data. Profile form with validation and FAQ page. Built in calendar app functionality thanks to the help of full calendar. You may also choose dark or light mode.",
+        languages:"React, Material UI",
+        images:["./images/dash-1.png", "./images/dash-2.png","./images/dash-3.png","./images/dash-4.png"],
+        repo:"https://637410b30e639d2e6287a10b--tranquil-sherbet-3fecab.netlify.app/"
+    },
+    {
         title:"MUSIC APP",
         description:"With the help of a music API you may view top songs by genere, artist, world charts, and search for almost any song. Play previews of the selected song with the music player. View the artist screen, song screen, and discover related tracks",
         languages:"React, Redux, Material UI",
@@ -15,7 +22,7 @@ const work=[
     },
     {
         title:"PROSHOP",
-        description:"An e-commerce sight with user authentication and admin functionality. Home screen with pagination, Product screen, Checkout screen. Check out with paypal integration. Users can manage orders, update profile, and review products. Admin can manage products, users, and orders including delivery status. (Sign in as admin: admin@example.com customer: john@example.com password: 123456)",
+        description:"An e-commerce site with user authentication and admin functionality. Home screen with pagination, Product screen, Checkout screen. Check out with paypal integration. Users can manage orders, update profile, and review products. Admin can manage products, users, and orders including delivery status. (Sign in as admin: admin@example.com customer: john@example.com password: 123456)",
         languages:"MongoDB, Express.js, React, Node.js, Redux, Bootstrap",
         images:["./images/pro-1.png", "./images/pro-2.png","./images/pro-3.png","./images/pro-4.png"],
         repo:"https://proshopfirstdeploy.herokuapp.com/"
@@ -36,7 +43,7 @@ const work=[
     },
     {
         title:"SCANDIWEB STORE",
-        description:"An e-commerce store that uses graphql queries to create a product gallery. Includes home page, product categories, selectable attributes, photo gallery, cart page, mini cart, and currency selector. (Note: I fixed certain functionality and UI issues but do not have access to the deployment account anymore to make the updates.)",
+        description:"An e-commerce store that uses graphql queries to create a product gallery. Includes home page, product categories, selectable attributes, photo gallery, cart page, mini cart, and currency selector.",
         languages:"HTML, CSS, React, GRAPHQL, Apollo",
         images:["./images/scandi-1.png", "./images/scandi-2.png","./images/scandi-3.png","./images/scandi-4.png"],
         repo:"https://shop-application.netlify.app/#"
