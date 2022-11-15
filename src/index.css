@@ -82,7 +82,7 @@ nav ul {
   cursor: pointer;
 }
 
-a::after {
+nav a::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -248,7 +248,7 @@ header button:hover {
 /**************** SKILLS ******************/
 
 .skills {
-  height: 1650px;
+  height: 1730px;
   display: grid;
   grid-auto-columns: 1fr;
   grid-template-columns: 1fr 1fr;
@@ -356,6 +356,14 @@ header button:hover {
   color: #0078d7;
 }
 
+.sass{
+  color: #c69;
+}
+
+.typescript{
+  color: #007acc;
+}
+
 
 /**************** PROJECTS ******************/
 
@@ -429,6 +437,7 @@ header button:hover {
 .projects button:hover {
   background-color: whitesmoke;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .projects a {

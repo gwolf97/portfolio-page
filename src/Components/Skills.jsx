@@ -1,8 +1,8 @@
 import {AiFillHtml5} from 'react-icons/ai'
 import {IoLogoCss3} from 'react-icons/io'
-import {SiJavascript} from 'react-icons/si'
+import {SiJavascript, SiTypescript} from 'react-icons/si'
 import {FaReact} from 'react-icons/fa'
-import {DiMongodb} from 'react-icons/di'
+import {DiMongodb, DiSass} from 'react-icons/di'
 import {SiRedux} from 'react-icons/si'
 import {FaNodeJs} from 'react-icons/fa'
 import {SiExpress} from 'react-icons/si'
@@ -139,6 +139,20 @@ const Skills = () => {
             <div className="tech-container">           
                 <DiVisualstudio className="tech-logo vs-code"/>
                 <p>Visual Studio Code</p>
+            </div>
+            </Fade>
+            <Fade bottom>
+
+            <div className="tech-container">           
+                <DiSass className="tech-logo sass"/>
+                <p>SASS</p>
+            </div>
+            </Fade>
+            <Fade bottom>
+
+            <div className="tech-container">           
+                <SiTypescript className="tech-logo typescript"/>
+                <p>TypeScript</p>
             </div>
             </Fade>
         </section>
