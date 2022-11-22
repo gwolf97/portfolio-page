@@ -1,12 +1,5 @@
 const work=[
     {
-        title:"DASHBOARD APP",
-        description:"A desktop dashboard app that gives a quick glance at all data as well as individual pages for more detail. This project demonstrates data in many forms. Pie, Bar, Line, and Geography charts. Contact, Team, and Invoice data. Profile form with validation and FAQ page. Built in calendar app functionality thanks to the help of full calendar. You may also choose dark or light mode.",
-        languages:"React, Material UI",
-        images:["./images/dash-1.png", "./images/dash-2.png","./images/dash-3.png","./images/dash-4.png"],
-        repo:"https://637410b30e639d2e6287a10b--tranquil-sherbet-3fecab.netlify.app/"
-    },
-    {
         title:"MUSIC APP",
         description:"With the help of a music API you may view top songs by genere, artist, world charts, and search for almost any song. Play previews of the selected song with the music player. View the artist screen, song screen, and discover related tracks",
         languages:"React, Redux, Material UI",
@@ -14,11 +7,11 @@ const work=[
         repo:"https://clever-scone-a0a58e.netlify.app/"
     },
     {
-        title:"SOCIAL APP",
-        description:"A simple social app that allows users to view, create, update, and delete posts. Comment on posts, search for other users, and view profiles.",
-        languages:"MongoDB, Express.js, React, Node.js, Redux, Bootstrap, Material UI",
-        images:["./images/social-1.png", "./images/social-2.png","./images/social-3.png","./images/social-4.png"],
-        repo:"https://wolf-mern-social-app.herokuapp.com/"
+        title:"FINE DINING PAGE",
+        description:"Mobile and desktop friendly dining app that showcases the restaurants chef menu and invites potential customers to a dining experience",
+        languages:"React, CSS3",
+        images:["./images/dine-1.png", "./images/dine-2.png","./images/dine-3.png","./images/dine-4.png"],
+        repo:"https://monumental-crisp-953884.netlify.app/"
     },
     {
         title:"PROSHOP",
@@ -28,11 +21,25 @@ const work=[
         repo:"https://proshopfirstdeploy.herokuapp.com/"
     },
     {
+        title:"DASHBOARD APP",
+        description:"A desktop dashboard app that gives a quick glance at all data as well as individual pages for more detail. This project demonstrates data in many forms. Pie, Bar, Line, and Geography charts. Contact, Team, and Invoice data. Profile form with validation and FAQ page. Built in calendar app functionality thanks to the help of full calendar. You may also choose dark or light mode.",
+        languages:"React, Material UI",
+        images:["./images/dash-1.png", "./images/dash-2.png","./images/dash-3.png","./images/dash-4.png"],
+        repo:"https://637410b30e639d2e6287a10b--tranquil-sherbet-3fecab.netlify.app/"
+    },
+    {
         title:"X-CHANGE",
         description:"Currency exchange application that uses a currency API to display the exchange rate data.",
         languages:"React, Material UI",
         images:["./images/change-1.png", "./images/change-2.png","./images/change-3.png"],
         repo:"https://grand-raindrop-98e043.netlify.app/"
+    },
+    {
+        title:"SOCIAL APP",
+        description:"A simple social app that allows users to view, create, update, and delete posts. Comment on posts, search for other users, and view profiles.",
+        languages:"MongoDB, Express.js, React, Node.js, Redux, Bootstrap, Material UI",
+        images:["./images/social-1.png", "./images/social-2.png","./images/social-3.png","./images/social-4.png"],
+        repo:"https://wolf-mern-social-app.herokuapp.com/"
     },
     {
         title:"MERN LANDING PAGE",

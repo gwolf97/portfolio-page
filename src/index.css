@@ -248,7 +248,7 @@ header button:hover {
 /**************** SKILLS ******************/
 
 .skills {
-  height: 1730px;
+  height: 2000px;
   display: grid;
   grid-auto-columns: 1fr;
   grid-template-columns: 1fr 1fr;
