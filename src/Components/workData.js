@@ -1,5 +1,12 @@
 const work=[
     {
+        title:"MERN BOOKING APP",
+        description:"Book your hotel stay. Search paramaters include travel dates, city, number of guest, or prices. Rooms will show as unavailable if already booked. Authorization and Admin privileges. (search city berlin for best example)",
+        languages:"React, MongoDB, Node.js, Express, Context API, CSS3",
+        images:["./images/booking-1.png", "./images/booking-2.png","./images/booking-3.png","./images/booking-4.png"],
+        repo:"https://wolf-booking-app.herokuapp.com/"
+    },
+    {
         title:"MUSIC APP",
         description:"With the help of a music API you may view top songs by genere, artist, world charts, and search for almost any song. Play previews of the selected song with the music player. View the artist screen, song screen, and discover related tracks",
         languages:"React, Redux, Material UI",
@@ -26,6 +33,13 @@ const work=[
         languages:"React, Material UI",
         images:["./images/dash-1.png", "./images/dash-2.png","./images/dash-3.png","./images/dash-4.png"],
         repo:"https://637410b30e639d2e6287a10b--tranquil-sherbet-3fecab.netlify.app/"
+    },
+    {
+        title:"QR CODE GENERATOR",
+        description:"By entering a valid URL this page will generate a QR code for you to use.",
+        languages:"React, CSS3",
+        images:["./images/qr-1.png"],
+        repo:"https://cozy-dolphin-360ebd.netlify.app/"
     },
     {
         title:"X-CHANGE",
