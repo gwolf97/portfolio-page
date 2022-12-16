@@ -18,7 +18,7 @@ const MobileNav = (props) => {
                 <img className="profile-pic" src="./images/profile-pic-crop.png" alt="" />
             </div>
             <h2 className="nav-name">Gabriel Wolf</h2>
-            <h3 className="nav-title"><span className="light-blue">FRONT-END DEVELOPER</span> IN COLOMBIA</h3>
+            <h3 className="nav-title"><span className="light-blue">FRONT-END DEVELOPER</span></h3>
             <ul>
                 <li onClick={props.toggle}>
                     <a href="#home">HOME</a>

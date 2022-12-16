@@ -7,6 +7,13 @@ const work=[
         repo:"https://wolf-booking-app.herokuapp.com/"
     },
     {
+        title:"MERN BOOKING ADMIN",
+        description:"If a user has admin privleges they can access the admin app for my MERN Booking app. From this app you can create new users, rooms, hotels. View all bookings. Dashboard overview of all data and detailed data of each user including that users bookings.(username & password: mylow)",
+        languages:"React, MongoDB, Node.js, Express, Context API, SASS",
+        images:["./images/book-admin-1.png", "./images/book-admin-2.png","./images/book-admin-3.png","./images/book-admin-4.png"],
+        repo:"https://wolf-booking-admin.herokuapp.com/"
+    },
+    {
         title:"MUSIC APP",
         description:"With the help of a music API you may view top songs by genere, artist, world charts, and search for almost any song. Play previews of the selected song with the music player. View the artist screen, song screen, and discover related tracks",
         languages:"React, Redux, Material UI",
